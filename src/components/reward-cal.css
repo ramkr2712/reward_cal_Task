@@ -1,0 +1,53 @@
+.search {
+    display: inline-flex;
+    padding: 15px;
+    margin: 5px;
+    width:100%;
+}
+
+.search .from {
+    display: inline;
+    width:30%;
+}
+
+.search .to {
+    display: inline;
+    width:30%;
+}
+
+.search label {
+    font-size: 14px;
+    margin-right:5px;
+}
+
+.table {
+    border: 'solid 1px black';
+}
+
+.tableHeading {
+    color:red;
+}
+
+.custrow { 
+    background-color: lightgray;
+}
+
+.tableData {
+    color:grey;
+    text-align: center;
+}
+
+.search button {
+    color: #fff;
+    background-color:#24a0ed ;
+    border-radius: 10px;
+    width: 10%;
+    height: 30px;
+    margin-top:1.25rem
+}
+
+.no-data {
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+}
